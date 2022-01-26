@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Risque&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js" integrity="sha512-UyX8JsMsNRW1cYl8BoxpcamonpwU2y7mSTsN0Z52plp7oKo1u92Xqfpv6lOlTyH3yiMXK+gU1jw0DVCsPTfKew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+    {
+        if (screen.width > 480) document.write('<script type="text/javascript" src="not_mobile_script.js"></sc' + 'ript>');
+    }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="" class="logo__link">
+                <img src="Images\Coca-Cola_logo_white 1.svg" alt="" class="logo">
+            </a>
+            <nav class="main_nav">
+                <ul>
+                    <li><a href="">Main</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Products</a></li>
+                    <li class="Contacts_container">
+                        <div class="Contacts"><a href="">Contacts<br><span>Contacts</span></a></div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="burger_container">
+                <input id="burger" type="checkbox">
+                <label class="burger" for="burger"><span></span></label>
+                <div class="but_back">
+                    <nav class="burger_menu">
+                        <ul>
+                            <li class="inner"><a href="">Home</a></li>
+                            <li class="inner"><a href="">About</a></li>
+                            <li class="inner"><a href="">Products</a></li>
+                            <li class="inner"><a href="">Contacts</a></li>
+                        </ul>
+                    </nav>
+                    <div class="circle"></div>
+                </div>
+                <img class="burger_img" src="Images/Burger.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="Screen_1 section">
+            <div class="title">
+                <h1>Main Site Title</h1>
+                <h2>Lorem ipsum descripsum</h2>
+                <button>Call to action</button>
+            </div>
+            <div class="santa">
+                <img class="dedcoca" src="Images/dedcoca 2.png" alt="">
+                <div class="cloud" id="cloud">
+                    <img src="Images/Cloud.svg" alt="">
+                    <p>How how how !!!<br>
+                        Like it?<br>
+                        Scroll down for more !</p>
+                </div>
+            </div>
+            <img src="Images/Arrow 2.svg" alt="" class="arrow">
+            <img src="Images/snow.png" alt="" class="snow">
+            <img src="Images/Stars.svg" alt="" class="stars">
+        </section>
+        <section class="Screen_2 section">
+            <div class="container">
+                <div>
+                    <h2>At least somewhere you can feel new year atmosphere </h2>
+                    <h3>Choose your present:</h3>
+                    <div class="btns">
+                        <input type="radio" value="1" name="present" id="rb1" checked>
+                        <input type="radio" value="2" name="present" id="rb2">
+                        <input type="radio" value="3" name="present" id="rb3">
+                        <label id="label-1" for="rb1" alt=""></label>
+                        <label id="label-2" for="rb2" alt=""></label>
+                        <label id="label-3" for="rb3" alt=""></label>
+                    </div>
+                </div>
+                <div class="message">
+                    <div id="present-1" class="present">
+                        <div class="flex">
+                            <div class="text">
+                                <h3>Best sock ever</h3>
+                                <p>Reuglar sock have no <br>
+                                    present inside <br>
+                                    Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                                </p>
+                            </div>
+                            <div class="img"><img src="Images/new-year-sock 2.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div id="present-2" class="present">
+                        <div class="flex">
+                            <div class="text">
+                                <h3>Best hat ever</h3>
+                                <p>Reuglar hat have no <br>
+                                    present inside <br>
+                                    Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                                </p>
+                            </div>
+                            <div class="img"><img src="Images/new-year-hat.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div id="present-3" class="present">
+                        <div class="flex">
+                            <div class="text">
+                                <h3>Best bag ever</h3>
+                                <p>Reuglar bag have no <br>
+                                    present inside <br>
+                                    Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                                </p>
+                            </div>
+                            <div class="img"><img src="Images/new-year-bag.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Screen_3 section">
+            <div class="form">
+                <h2>Write us <br>
+                    for real presents</h2>
+                <form action="">
+                    <input type="name" placeholder="Name">
+                    <input type="phone" placeholder="Phone">
+                    <select placeholder="Gender">
+                        <option class="default" disabled selected>Gender</option>
+                        <option>Boy</option>
+                        <option disabled>Girl</option>
+                    </select>
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Your witsh" cols="40" rows="3"></textarea>
+                    <div class="checkboxes__item">
+                        <label class="checkbox style-b">
+                            <input type="checkbox" />
+                            <div class="checkbox__checkmark"></div>
+                            <div class="checkbox__body">Whant Coca-cola with present ?</div>
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="libs/snowfall.jquery.min.js"></script>    
+</body>
+
+</html>

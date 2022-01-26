@@ -1,0 +1,190 @@
+@media screen and (max-width: 451px) {
+    .snow {
+        display: none
+    }
+
+    .santa img {
+        height: 75vw;
+    }
+
+    .cloud {
+        display: none !important;
+    }
+
+    .main_nav {
+        display: none
+    }
+
+    .title {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 200px;
+    }
+
+    .title h1 {
+        font-size: 52px;
+        padding-left: 5vw;
+    }
+
+    .title h2 {
+        font-size: 28px;
+        padding-left: 5vw;
+        margin: 15px 0;
+    }
+
+    .title button {
+        position: absolute;
+        left: 50%;
+        top: 35vw;
+        transform: translateX(-50%);
+    }
+
+    .arrow {
+        display: none
+    }
+
+    .burger {
+        right: 11vw;
+        top: 11.5vw;
+        width: 36px;
+        height: 30px;
+    }
+
+    .burger span:before {
+        top: -11px;
+    }
+
+    .burger span {
+        top: 11px;
+    }
+
+    .burger span:after {
+        bottom: -11px;
+    }
+
+    .burger_img {
+        position: absolute;
+        top: 8vw;
+        right: 8vw;
+        z-index: -10;
+    }
+
+    .circle {
+        top: 10vw;
+        right: 10vw;
+    }
+
+    .stars {
+        top: 35px;
+        left: -40% !important;
+        transform: rotateZ(270deg);
+        width: 180vw;
+    }
+
+    .snowfall-flakes {
+        width: 7px !important;
+        height: 7px !important;
+        border-radius: 5px !important;
+    }
+
+    .container h2 {
+        font-size: 52px;
+    }
+
+    .container h3 {
+        font-size: 28px;
+        margin: 5vw 0;
+    }
+
+    .section .container {
+        display: block;
+    }
+
+    .Screen_2 {
+        height: 290vw !important;
+    }
+
+    #label-2::before {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #label-1::before {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #label-3::before {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #rb1:checked~#label-1::before {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #rb2:checked~#label-2::before {
+
+        height: 25vw;
+        width: 25vw;
+    }
+
+    #rb3:checked~#label-3::before {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .message {
+        transform: translateY(40px);
+
+        border: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .text {
+        order: 2;
+    }
+
+    .text h3 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .message p {
+        margin: 8.5vw
+    }
+
+    .img {
+        justify-content: center;
+        height: 257px;
+    }
+
+    .Screen_3 {
+        justify-content: center
+    }
+
+    .form {
+        transform: translateY(4vw);
+        width: 90%;
+    }
+    .form input, select, textarea{
+      box-sizing: border-box;
+      width: 90vw;
+      padding: 3vw 5vw;
+      margin: 2.7vw 0.7vw;
+    }
+    select{
+      width: 90vw
+    }
+    .checkbox.style-b .checkbox__body{
+      color: white;
+      font-weight: normal
+    }
+}
