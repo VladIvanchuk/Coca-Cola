@@ -175,7 +175,6 @@
         width: 90%;
     }
     .form input, select, textarea{
-      box-sizing: border-box;
       width: 90vw;
       padding: 3vw 5vw;
       margin: 2.7vw 0.7vw;

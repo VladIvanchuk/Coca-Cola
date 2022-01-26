@@ -461,19 +461,17 @@ textarea {
     color: white;
     padding: .7vw 1.5vw;
     margin: .7vw;
-    width: 12.4vw;
+    width: 15.9vw;
+    box-sizing: border-box;
 }
 
 ::-webkit-input-placeholder {
     color: white;
 }
 
-select {
-    width: 15.6vw;
-}
 
 textarea {
-    width: 29.7vw;
+    width: 33.7vw;
 }
 
 .checkbox.style-b {
